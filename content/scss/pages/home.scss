@@ -1,0 +1,32 @@
+.hero {
+  width: 100%;
+  margin-top: -10px;
+  .item {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(90deg, #012863 0%, rgba(1, 40, 99, 0)),
+      url(../assets/img/hero/slider.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    h1 {
+      font-size: calc(1.5rem + 4vw);
+    }
+    .main__btn {
+      border: 0;
+      padding: 1rem 1.5rem;
+      clip-path: polygon(11% 0, 100% 0, 89% 100%, 0 100%);
+      a {
+        color: white;
+      }
+    }
+    .redone {
+        background-color: $red-color;
+    }
+    .trasone {
+        background-color: transparent;
+        border: 2px solid $text-color;
+    }
+  }
+}

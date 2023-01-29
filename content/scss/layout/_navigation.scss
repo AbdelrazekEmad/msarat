@@ -1,7 +1,7 @@
 .desctop-nav {
   width: 70%;
   float: $e;
-  margin-#{$e}: 3rem;
+  margin-#{$e}: 1rem;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 1% 100%);
   .navslist {
     display: inline-block;
@@ -68,6 +68,7 @@
   background-color: black;
   opacity: 0.5;
   transition: 0.5s ease-in-out;
+  z-index: 90;
   &.is-active {
     right: 0;
   }
