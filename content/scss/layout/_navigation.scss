@@ -1,0 +1,136 @@
+.desctop-nav {
+  width: 70%;
+  float: $e;
+  margin-#{$e}: 3rem;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 1% 100%);
+  .navslist {
+    display: inline-block;
+    li {
+      display: inline-block;
+      margin-inline: 1.75rem;
+    }
+  }
+  button {
+    border: 0;
+    background-color: $main-color;
+    color: white;
+    padding-inline: 3rem;
+    text-transform: capitalize;
+    transition: background 0.4s ease-in-out;
+    &:hover {
+      background-color: #1f1834;
+    }
+  }
+}
+
+.hamburger {
+  position: relative;
+  display: block;
+  width: 35px;
+  cursor: pointer;
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+  float: right;
+
+  & .bar,
+  &::after,
+  &::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0px;
+    transition: 0.4s;
+  }
+
+  &.is-active:before {
+    transform: rotate(-45deg) translate(-8px, 6px);
+  }
+
+  &.is-active:after {
+    transform: rotate(45deg) translate(-9px, -8px);
+  }
+
+  &.is-active .bar {
+    opacity: 0;
+  }
+}
+
+.mobile-nav__overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  background-color: black;
+  opacity: 0.5;
+  transition: 0.5s ease-in-out;
+  &.is-active {
+    right: 0;
+  }
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  min-height: 100vh;
+  display: block;
+  z-index: 100;
+  background-color: white;
+  padding-top: 1rem;
+  padding-inline-start: 1rem;
+  transition: 0.8s;
+  border-inline-start: 3px solid $red-color;
+  padding: 2rem;
+
+  &.is-active {
+    right: 0;
+  }
+
+  .closing_btn {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 1rem;
+
+    i {
+      padding: 1rem;
+      line-height: 1rem;
+      font-size: 1rem;
+      transition: all 0.4s ease-in-out;
+      background-color: $main-color;
+
+      &:hover {
+        background-color: red;
+      }
+    }
+  }
+
+  .mobile-nav__list {
+    display: flex;
+    flex-direction: column;
+    a {
+      position: relative;
+      display: inline-block;
+      padding: 1rem 0.5rem;
+      color: $main-color;
+      font-weight: bold;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    }
+  }
+  .mobile-nav__info {
+    display: flex;
+    flex-direction: column;
+    span {
+      margin-top: 1rem;
+      a {
+        color: $main-color;
+      }
+    }
+  }
+}
