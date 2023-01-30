@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap");
+
 $s: right;
 $e: left;
 
@@ -11,4 +13,8 @@ body {
 
 input {
   text-align: right;
+}
+
+*:not(i) {
+  font-family: "Tajawal", sans-serif !important;
 }

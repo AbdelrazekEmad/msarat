@@ -7,6 +7,7 @@ $(".owl-carousel-hero").owlCarousel({
   animateOut: "fadeOut",
   animateIn: "fadeIn",
   autoplaySpeed: 6000,
+  rtl: true,
   responsive: {
     0: {
       items: 1,

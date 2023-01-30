@@ -1,9 +1,18 @@
 .bg_main_color {
   background-color: $main-color;
 }
+.bg_red_color {
+  background-color: $red-color;
+}
 .text_main_color {
   color: $main-color;
 }
 .fontf__oswald {
   font-family: "Oswald", sans-serif;
+}
+.text-color {
+  color: $text-color;
+}
+.upperbar__text {
+  color: #8a9db9;
 }

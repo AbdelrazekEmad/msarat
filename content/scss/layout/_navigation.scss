@@ -1,4 +1,4 @@
-.desctop-nav {
+.descktop-nav {
   width: 70%;
   float: $e;
   margin-#{$e}: 1rem;
@@ -32,7 +32,7 @@
   background: none;
   outline: none;
   border: none;
-  float: right;
+  float: #{$e};
 
   & .bar,
   &::after,
@@ -64,20 +64,20 @@
   width: 100%;
   height: 100%;
   top: 0;
-  right: -100%;
+  #{$e}: -100%;
   background-color: black;
   opacity: 0.5;
   transition: 0.5s ease-in-out;
   z-index: 90;
   &.is-active {
-    right: 0;
+    #{$e}: 0;
   }
 }
 
 .mobile-nav {
   position: fixed;
   top: 0;
-  right: -100%;
+  #{$e}: -100%;
   min-height: 100vh;
   display: block;
   z-index: 100;
@@ -89,7 +89,7 @@
   padding: 2rem;
 
   &.is-active {
-    right: 0;
+    #{$e}: 0;
   }
 
   .closing_btn {

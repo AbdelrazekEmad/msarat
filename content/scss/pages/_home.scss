@@ -1,0 +1,31 @@
+.hero {
+  width: 100%;
+  margin-top: -10px;
+  .item {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    &.slider-1 {
+      background-image: linear-gradient(90deg, #012863 0%, rgba(1, 40, 99, 0)),
+        url(../assets/img/hero/slider.png);
+    }
+    &.slider-2 {
+      background-image: linear-gradient(90deg, #012863 0%, rgba(1, 40, 99, 0)),
+        url(../assets/img/hero/slider-2.jpg);
+    }
+    &.slider-3 {
+      background-image: linear-gradient(90deg, #012863 0%, rgba(1, 40, 99, 0)),
+        url(../assets/img/hero/slider-3.png);
+    }
+    .hero__content {
+      width: 75%;
+      h1 {
+        font-size: calc(1.5rem + 3vw);
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
