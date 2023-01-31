@@ -15,3 +15,15 @@ window.onload = function () {
     });
   });
 };
+
+const videoBtn = document.querySelector(".video__icon");
+const VidModile = document.querySelector(".vid__modle");
+const videoClosingBtn = document.querySelector(".closing_btn-vid");
+
+videoBtn.addEventListener("click", function () {
+  VidModile.style.display = "flex";
+});
+
+videoClosingBtn.addEventListener("click", function () {
+  VidModile.style.display = "none";
+});
