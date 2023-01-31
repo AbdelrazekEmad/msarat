@@ -63,10 +63,6 @@ a {
   text-decoration: none;
 }
 
-body {
-  height: 1000vh;
-}
-
 .main__btn {
   border: 0;
   padding: 1rem 1.5rem;
