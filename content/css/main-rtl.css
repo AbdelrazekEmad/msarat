@@ -308,16 +308,16 @@ body {
   color: white;
 }
 .hero .item.slider-1 {
-  background-image: -webkit-gradient(linear, left top, right top, from(#012863), to(rgba(1, 40, 99, 0))), url(../assets/img/hero/slider.png);
-  background-image: linear-gradient(90deg, #012863 0%, rgba(1, 40, 99, 0)), url(../assets/img/hero/slider.png);
+  background-image: -webkit-gradient(linear, left top, right top, from(#012863), to(rgba(1, 40, 99, 0))), url(../assets/img/hero/slider.webp);
+  background-image: linear-gradient(90deg, #012863 0%, rgba(1, 40, 99, 0)), url(../assets/img/hero/slider.webp);
 }
 .hero .item.slider-2 {
-  background-image: -webkit-gradient(linear, left top, right top, from(#012863), to(rgba(1, 40, 99, 0))), url(../assets/img/hero/slider-2.jpg);
-  background-image: linear-gradient(90deg, #012863 0%, rgba(1, 40, 99, 0)), url(../assets/img/hero/slider-2.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(#012863), to(rgba(1, 40, 99, 0))), url(../assets/img/hero/slider-2.webp);
+  background-image: linear-gradient(90deg, #012863 0%, rgba(1, 40, 99, 0)), url(../assets/img/hero/slider-2.webp);
 }
 .hero .item.slider-3 {
-  background-image: -webkit-gradient(linear, left top, right top, from(#012863), to(rgba(1, 40, 99, 0))), url(../assets/img/hero/slider-3.png);
-  background-image: linear-gradient(90deg, #012863 0%, rgba(1, 40, 99, 0)), url(../assets/img/hero/slider-3.png);
+  background-image: -webkit-gradient(linear, left top, right top, from(#012863), to(rgba(1, 40, 99, 0))), url(../assets/img/hero/slider-3.webp);
+  background-image: linear-gradient(90deg, #012863 0%, rgba(1, 40, 99, 0)), url(../assets/img/hero/slider-3.webp);
 }
 .hero .item .hero__content {
   width: 75%;
@@ -325,6 +325,77 @@ body {
 .hero .item .hero__content h1 {
   font-size: calc(1.5rem + 3vw);
   margin-bottom: 1rem;
+}
+
+.services-section {
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  position: relative;
+  background-color: white;
+  margin-top: -7rem;
+  z-index: 10;
+  border-radius: 1px;
+  overflow: visible !important;
+  border-bottom: 10px solid #db1c29;
+  padding: 0 3rem;
+  overflow: visible !important;
+}
+.services-section .services__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  overflow: visible !important;
+}
+.services-section .services__card:hover {
+  -webkit-transform: translateY(-90px);
+          transform: translateY(-90px);
+  z-index: 100;
+}
+.services-section .services__card:hover .sercices__icon {
+  border: 4px solid #db1c29;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+.services-section .services__card:hover a {
+  opacity: 1;
+}
+.services-section .services__card .sercices__icon {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  z-index: 10000;
+}
+.services-section .services__card h3 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.services-section .services__card p {
+  text-align: center;
+}
+.services-section .services__card > a {
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  opacity: 0;
 }
 
 /*# sourceMappingURL=main-rtl.css.map */
