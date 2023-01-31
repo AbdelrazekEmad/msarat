@@ -519,4 +519,37 @@ body {
   cursor: pointer;
 }
 
+.quote {
+  padding-top: 10rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(58, 46, 98, 0.2)), to(rgba(58, 46, 98, 0.2))), url(../assets/img/quote/price-cta-bg.png);
+  background-image: linear-gradient(rgba(58, 46, 98, 0.2), rgba(58, 46, 98, 0.2)), url(../assets/img/quote/price-cta-bg.png);
+  background-position: right, center;
+}
+.quote__content {
+  -webkit-clip-path: polygon(7% 0, 100% 0, 93% 100%, 0 100%);
+          clip-path: polygon(7% 0, 100% 0, 93% 100%, 0 100%);
+  padding: 5rem 5rem 0 5rem;
+  -webkit-filter: drop-shadow(0px 30px 10px rgba(0, 0, 0, 0.06));
+          filter: drop-shadow(0px 30px 10px rgba(0, 0, 0, 0.06));
+}
+.quote__form input,
+.quote__form textarea {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-color: #dee2e6 !important;
+}
+.quote__form__form__input {
+  border-left: 0;
+}
+.quote__form .input-group-text {
+  color: #3a2e62;
+  border: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  background-color: transparent;
+}
+
 /*# sourceMappingURL=main-rtl.css.map */

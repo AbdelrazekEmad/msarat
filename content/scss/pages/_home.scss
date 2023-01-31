@@ -189,3 +189,37 @@
     cursor: pointer;
   }
 }
+
+.quote {
+  padding-top: 10rem;
+  background-image: linear-gradient(
+      rgba(58, 46, 98, 0.2),
+      rgba(58, 46, 98, 0.2)
+    ),
+    url(../assets/img/quote/price-cta-bg.png);
+  background-position: #{$s}, center;
+  &__content {
+    clip-path: polygon(7% 0, 100% 0, 93% 100%, 0 100%);
+    padding: 5rem 5rem 0 5rem;
+    filter: drop-shadow(0px 30px 10px rgba(0, 0, 0, 0.06));
+  }
+  &__form {
+    input,
+    textarea {
+      box-shadow: none !important;
+      border-color: #dee2e6 !important;
+    }
+    &__form__input {
+      border-#{$e}: 0;
+    }
+    .input-group-text {
+      color: $main-color;
+      border: 0;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      #{$e}: 0;
+      background-color: transparent;
+    }
+  }
+}
