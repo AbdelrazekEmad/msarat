@@ -552,4 +552,27 @@ body {
   background-color: transparent;
 }
 
+@media screen and (max-width: 550px) {
+  .quote {
+    padding-top: 1rem;
+  }
+
+  .quote__content {
+    padding: 1rem 2rem 0 2rem;
+  }
+}
+.numbers {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(58, 46, 98, 0.9)), to(rgba(58, 46, 98, 0.9))), url(../assets/img/numbers/fact-bg-02-1.jpg);
+  background-image: linear-gradient(rgba(58, 46, 98, 0.9), rgba(58, 46, 98, 0.9)), url(../assets/img/numbers/fact-bg-02-1.jpg);
+  background-size: cover;
+  color: white;
+  padding: 5rem 0;
+}
+.numbers span {
+  font-size: 3rem;
+}
+.numbers .numbers__icon {
+  font-size: 4rem;
+}
+
 /*# sourceMappingURL=main-rtl.css.map */
