@@ -190,6 +190,31 @@
   }
 }
 
+.owl-carousel-testimonials .owl-stage {
+  display: flex;
+}
+.testimonials {
+  background-image: url(../assets/img/testimonials/map-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  .item {
+    display: flex;
+    flex: 1 0 auto;
+    height: 100%;
+    padding: 2rem 2.5rem;
+    background: #fff6f6ac;
+    box-shadow: -18px -8px 10px -24px rgba(0, 0, 0, 0.6);
+    clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%);
+  }
+  &__card {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
 .quote {
   padding-top: 10rem;
   background-image: linear-gradient(
@@ -247,8 +272,4 @@
   .numbers__icon {
     font-size: 4rem;
   }
-}
-
-footer {
-  
 }
