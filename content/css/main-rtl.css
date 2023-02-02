@@ -40,6 +40,10 @@ input {
   color: #8a9db9;
 }
 
+.clr {
+  clear: both !important;
+}
+
 h1,
 h2,
 h3,
@@ -127,8 +131,8 @@ a {
 
 .banar {
   height: 40vh;
-  margin-top: 3.63rem;
   position: relative;
+  clear: both;
 }
 .banar__content {
   color: white;

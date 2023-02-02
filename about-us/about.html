@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Msarat</title>
+    <!-- bootstrap CDN ltr v5.3  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- font awesome CDN v6.2.1  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../content/css/main-ltr.css">
+
+</head>
+
+<body>
+
+    <!-- Start upperbar  -->
+    <section class="upperbar bg_main_color py-2 py-lg-0">
+        <div class="d-flex justify-content-between align-items-center flex-column flex-lg-row ">
+            <span class="upperbar__text fontf__oswald text-uppercase ms-2">We’re more than just transport. <span
+                    class="text-white fw-bold">Free
+                    Counsultancy</span></span>
+            <ul class="upperbar__icons m-0 p-0 pe-3 d-flex">
+                <li class="bg_red_color d-block p-2 text-white"><i class="fa-brands fa-facebook"></i></li>
+                <li class="bg_red_color d-block p-2 text-white"><i class="fa-brands fa-facebook"></i></li>
+                <li class="bg_red_color d-block p-2 text-white"><i class="fa-brands fa-facebook"></i></li>
+                <li class="bg_red_color d-block p-2 text-white"><i class="fa-brands fa-facebook"></i></li>
+                <li class="bg_red_color d-block p-2 text-white"><i class="fa-brands fa-facebook"></i></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Start header -->
+    <section class="px-2 py-4">
+        <div class="row">
+            <div class="col-4">
+                <a href="../index.html"><img width="250" src="../content/assets/img/logo/logo-en.webp" alt=""></a>
+            </div>
+            <div class="col-8 d-none d-lg-block">
+                <div class="d-flex column-gap-4">
+                    <div class="navbar__box">
+                        <i class="fa-solid fa-phone-volume fs-3 me-2 text-danger"></i>
+                        <div class="navbar__box__text text-color fontf__oswald fw-bolder">
+                            <p class="text-color">Call us now</p>
+                            <a class="fs-6" href="tel:+01022674132">01022674132</a>
+                        </div>
+                    </div>
+                    <div class="navbar__box">
+                        <i class="fa-solid fa-envelope-open-text fs-3 me-2 text-danger"></i>
+                        <div class="navbar__box__text text-color fontf__oswald fw-bolder">
+                            <p>Email now</p>
+                            <a class="fs-6" href="mailto:abdelrazekemad123@gmail.com">abdelrazekemad123@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="navbar__box">
+                        <i class="fa-solid fa-location-dot fs-3 me-2 text-danger"></i>
+                        <div class="navbar__box__text text-color fontf__oswald fw-bolder">
+                            <p>address</p>
+                            <a href="#map">Salah Al-Din Al-Ayyubi St. Riyadh-Al-Malaz District</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-block d-lg-none">
+                <button class="hamburger">
+                    <div class="bar"></div>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Navs -->
+    <nav class="desktop-nav bg_red_color d-none d-lg-flex justify-content-between">
+        <ul class="navslist m-0 p-0">
+            <li><a class="text-white" href="../index.html">Home</a></li>
+            <li><a class="text-white" href="./index.html">Services</a></li>
+            <li class="desktop__dropdown">
+                <a class="text-white">Outlets</a>
+                <ul class="dropdown__content bg-white">
+                    <li><a href="../outlets/offshore/offshore.html" class="text_main_color">Offshore Outlets</a></li>
+                    <li><a href="../outlets/land/land.html" class="text_main_color">Land Outlets</a></li>
+                    <li><a href="../outlets/air/air.html" class="text_main_color">Air Outlets</a></li>
+                </ul>
+            </li>
+            <li><a class="text-white" href="./about.html">About us</a></li>
+            <li><a class="text-white" href="../contact/contact.html">Contact us</a></li>
+            <li><a class="text-white" href="../about-us/about-ar.html">عربي</a></li>
+        </ul>
+        <button class="fontf__oswald">get a quote</button>
+    </nav>
+
+    <div class="mobile-nav__overlay"></div>
+    <nav class="mobile-nav">
+        <span class="closing_btn"><i class="fa-solid fa-x text-white rounded-circle"></i></span>
+        <ul class="mobile-nav__list m-0 p-0 py-2">
+            <a href="../index.html">Home</a>
+            <a href="./index.html">Services</a>
+            <li class="mobile__dropdown fontf__oswald">
+                <div class="d-flex justify-content-between align-items-center">
+                    <span>Outlets</span>
+                    <div class="plus__btn">
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <ul class="mobile__dropdown__content bg-white">
+                    <li><a class="text_main_color" href="../outlets/offshore/offshore.html"
+                            class="text_main_color">Offshore
+                            Outlets</a></li>
+                    <li><a class="text_main_color" href="../outlets/land/land.html" class="text_main_color">Land
+                            Outlets</a>
+                    </li>
+                    <li><a class="text_main_color" href="../outlets/air/air.html" class="text_main_color">Air
+                            Outlets</a>
+                    </li>
+                </ul>
+            </li>
+            <a href="./about.html">About us</a>
+            <a href="../contact/contact.html">Contact us</a>
+            <a href="./about-ar.html">عربي</a>
+        </ul>
+        <div class="mobile-nav__info">
+            <span>
+                <i class="fa-solid fa-phone-volume fs-3 me-2 text-danger"></i>
+                <a href="tel:01022674132">01022674132</a>
+            </span>
+            <span>
+                <i class="fa-solid fa-envelope-open-text fs-3 me-2 text-danger"></i>
+                <a href="mailto:abdelrazekemad123@gmail.com">abdelrazekemad123@gmail.com</a>
+            </span>
+            <span>
+                <i class="fa-solid fa-location-dot fs-3 me-2 text-danger"></i>
+                <a href="#map">28st. Msadak</a>
+            </span>
+        </div>
+    </nav>
+
+    <!-- Start About -->
+    <section class="about-section py-5 clr">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 col-lg-6">
+                    <img class="img-fluid" src="../content/assets/img/About-section/about-img.webp" alt="">
+                </div>
+                <div class="col-12 col-lg-6 px-5 mt-lg-0 mt-5 py-5">
+                    <span class="text_red_color fw-bold">About Us</span>
+                    <h2 class="text_main_color fs-1 mb-4">Masarat Al Mina It is your first choice</h2>
+                    <p class="text-color">Based on more than twenty years of experience, the company's founders are in
+                        the field of customs clearance; thanks to the professionalism of those responsible for this, we
+                        have created (port tracks) for customs clearance</p>
+                    <p class="text-color">which is the first choice for many thanks to its endless professionalism,
+                        Speed of execution, and complete knowledge of delivery terms, customs clearance, rules, and laws
+                        governing export and import operations; therefore, you can flexibly and quickly settle all
+                        issues at customs, which will help you save time, effort, and money.</p>
+                </div>
+            </div>
+            <div class="row flex-column-reverse flex-lg-row">
+                <div class="col-12 col-lg-6 px-5 mt-lg-0 pt-5">
+                    <span class="text_red_color fw-bold">Our Vision</span>
+                    <h3 class="text_main_color mb-4">(Satisfaction of our customers) is our ultimate goal and
+                        mission</h5>
+                        <p class="text-color">Becoming one of the pioneers in the field of customs clearance relies on
+                            our professionalism and professionalism. Of course, the speed of completion will be the
+                            first choice for individuals and entrepreneurs to provide our service to any seaport, land,
+                            or air.
+                        </p>
+                </div>
+                <div class="col-12 col-lg-6 p-0">
+                    <img class="img-fluid" src="../content/assets/img/About-section/approch-img.jpg" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6 p-0">
+                    <img class="img-fluid" src="../content/assets/img/About-section/mission-image.jpg" alt="">
+                </div>
+                <div class="col-12 col-lg-6 px-5 mt-lg-0 pt-5">
+                    <span class="text_red_color fw-bold">Our Mission</span>
+                    <h3 class="text_main_color mb-4">(Satisfaction of our customers) is our ultimate goal and
+                        mission</h4>
+                        <p class="text-color">Solve the customs clearance dilemma quickly and provide our service to
+                            everyone to change the term customs clearance to become an entire industry.
+                        </p>
+                </div>
+            </div>
+            <div class="row flex-column-reverse flex-lg-row">
+                <div class="col-12 col-lg-6 px-5 mt-lg-0 pt-5">
+                    <span class="text_red_color fw-bold">Our Objectives</span>
+                    <h3 class="text_main_color mb-4">(Satisfaction of our customers) is our ultimate goal and
+                        mission</h5>
+                        <ul class="number__list">
+                            <li class="text-color mb-2 fs-6 fontf__oswald mb-4"><span>01</span>To become one of the
+                                pioneers of the customs clearance industry in the kingdom of Saudi Arabia.</li>
+                            <li class="text-color mb-2 fs-6 fontf__oswald mb-4"><span>02</span>To be the first choice
+                                for many entrepreneurs, traders, and individuals.</li>
+                            <li class="text-color mb-2 fs-6 fontf__oswald mb-4"><span>03</span>We aspire to make the
+                                customs clearance industry later be done remotely at the push of a button through us.
+                            </li>
+                            <li class="text-color mb-2 fs-6 fontf__oswald mb-4"><span>04</span>We provide the best
+                                service to our customers.</li>
+                        </ul>
+                </div>
+                <div class="col-12 col-lg-6 p-0">
+                    <img class="w-100" src="../content/assets/img/About-section/about-page-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Footer -->
+    <footer class="bg_main_color text-white pt-5">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col">
+                    <h2>Masarat Al Mina</h2>
+                    <p class="text-color">for customs clearance to clear all outstanding customs matters flexibly and
+                        easily, helping you
+                        save time and effort as well as money</p>
+                </div>
+                <div class="col">
+                    <h2>Links:</h2>
+                    <ul>
+                        <li><a class="text-color" href="./index.html">Home</a></li>
+                        <li><a class="text-color" href="./index.html">About us</a></li>
+                        <li><a class="text-color" href="./index.html">Contact us</a></li>
+                        <li><a class="text-color" href="./index.html">Services</a></li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <h2>Contact us now:</h2>
+                    <ul>
+                        <li>Contact: <p class="text-color">0504333360</p>
+                        </li>
+                        <li>Address: <p class="text-color">Masarat Al Mina Corporation for Customs Clearance -
+                                Riyadh -
+                                Al-Malaz District -
+                                Street: Salah Al-Din Al-Ayyubi Road</p>
+                        </li>
+                        <li>Email:
+                            <p class="text-color">abdelrazekemad123@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Start Copy Right  -->
+    <section class="bg_red_color text-white d-flex justify-content-center align-items-center py-3">
+        <span>&copy; You deserve the best from <a class="text_main_color" href="https://www.ocoda.com/"
+                target="_blank">Ocoda</a></span>
+    </section>
+    <!-- End Copy Right  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="../content/js/main.js"></script>
+</body>
+
+</html>
