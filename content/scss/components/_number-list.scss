@@ -1,0 +1,11 @@
+.number__list {
+  span {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0 0.5rem;
+    background-color: $red-color;
+    color: white;
+    clip-path: polygon(11% 0, 100% 0, 89% 100%, 0 100%);
+    margin-#{$e}: 0.5rem;
+  }
+}

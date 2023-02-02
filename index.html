@@ -48,10 +48,10 @@
     <!-- Start header -->
     <section class="px-2 py-4">
         <div class="row">
-            <div class="col">
-                <a href=""><img width="250" src="./content/assets/img/logo/logo-en.webp" alt=""></a>
+            <div class="col-4">
+                <a href="./index.html"><img width="250" src="./content/assets/img/logo/logo-en.webp" alt=""></a>
             </div>
-            <div class="col d-none d-lg-block">
+            <div class="col-8 d-none d-lg-block">
                 <div class="d-flex column-gap-4">
                     <div class="navbar__box">
                         <i class="fa-solid fa-phone-volume fs-3 me-2 text-danger"></i>
@@ -71,7 +71,7 @@
                         <i class="fa-solid fa-location-dot fs-3 me-2 text-danger"></i>
                         <div class="navbar__box__text text-color fontf__oswald fw-bolder">
                             <p>address</p>
-                            <a class="fs-6" href="tel:+01022674132">28st. Msadak</a>
+                            <a href="#map">Salah Al-Din Al-Ayyubi St. Riyadh-Al-Malaz District</a>
                         </div>
                     </div>
                 </div>
@@ -85,12 +85,20 @@
     </section>
 
     <!-- Start Navs -->
-    <nav class="descktop-nav bg_red_color d-none d-lg-flex justify-content-between">
-        <ul class="navslist m-0 p-0 py-3">
+    <nav class="desktop-nav bg_red_color d-none d-lg-flex justify-content-between">
+        <ul class="navslist m-0 p-0">
             <li><a class="text-white" href="./index.html">Home</a></li>
-            <li><a class="text-white" href="./index.html">About us</a></li>
-            <li><a class="text-white" href="./index.html">Contact us</a></li>
             <li><a class="text-white" href="./index.html">Services</a></li>
+            <li class="desktop__dropdown">
+                <a class="text-white">Outlets</a>
+                <ul class="dropdown__content bg-white">
+                    <li><a href="./outlets/offshore/offshore.html" class="text_main_color">Offshore Outlets</a></li>
+                    <li><a href="./outlets/land/land.html" class="text_main_color">Land Outlets</a></li>
+                    <li><a href="./outlets/air/air.html" class="text_main_color">Air Outlets</a></li>
+                </ul>
+            </li>
+            <li><a class="text-white" href="./about-us/about.html">About us</a></li>
+            <li><a class="text-white" href="./contact/contact.html">Contact us</a></li>
             <li><a class="text-white" href="./index-ar.html">عربي</a></li>
         </ul>
         <button class="fontf__oswald">get a quote</button>
@@ -101,9 +109,27 @@
         <span class="closing_btn"><i class="fa-solid fa-x text-white rounded-circle"></i></span>
         <ul class="mobile-nav__list m-0 p-0 py-2">
             <a href="./index.html">Home</a>
-            <a href="./index.html">About us</a>
-            <a href="./index.html">Contact us</a>
             <a href="./index.html">Services</a>
+            <li class="mobile__dropdown fontf__oswald">
+                <div class="d-flex justify-content-between align-items-center">
+                    <span>Outlets</span>
+                    <div class="plus__btn">
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <ul class="mobile__dropdown__content bg-white">
+                    <li><a class="text_main_color" href="./outlets/offshore/offshore.html"
+                            class="text_main_color">Offshore
+                            Outlets</a></li>
+                    <li><a class="text_main_color" href="./outlets/land/land.html" class="text_main_color">Land
+                            Outlets</a>
+                    </li>
+                    <li><a class="text_main_color" href="./outlets/air/air.html" class="text_main_color">Air Outlets</a>
+                    </li>
+                </ul>
+            </li>
+            <a href="./about-us/about.html">About us</a>
+            <a href="./contact/contact.html">Contact us</a>
             <a href="./index-ar.html">عربي</a>
         </ul>
         <div class="mobile-nav__info">
@@ -165,41 +191,43 @@
         </div>
     </section>
 
-    <!-- Start Services section  -->
+    <!-- Start outlets section  -->
     <div class="container">
-        <div class="services-section">
+        <div class="outlets-section">
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                 <div class="col">
-                    <div class="services__card">
-                        <div class="sercices__icon"><img width="60"
-                                src="./content/assets/img/services-section/boat.webp" alt=""></div>
-                        <h3><a class="text_main_color" href="#">OCEAN <br> TRANSPORT</a></h3>
+                    <div class="outlets__card">
+                        <div class="outlets__icon"><img width="60" src="./content/assets/img/outlets-section/boat.webp"
+                                alt=""></div>
+                        <h3><a class="text_main_color text-uppercase"
+                                href="./outlets/offshore/offshore.html">Offshore<br>Outlets</a></h3>
                         <p class="text-color">The quality data, best network building uptime, fastest output</p>
-                        <a class="text_main_color" href="#">SERVICE DETAILS</a>
+                        <a class="text_main_color" href="./outlets/offshore/offshore.html">OUTLET DETAILS</a>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="services__card">
-                        <div class="sercices__icon"><img width="60"
-                                src="./content/assets/img/services-section/frontal-truck.webp" alt=""></div>
-                        <h3><a class="text_main_color" href="#">ROAD <br> TRANSPORT</a></h3>
+                    <div class="outlets__card">
+                        <div class="outlets__icon"><img width="60"
+                                src="./content/assets/img/outlets-section/frontal-truck.webp" alt=""></div>
+                        <h3><a class="text_main_color text-uppercase"
+                                href="./outlets/land/land.html">Land<br>Outlets</a></h3>
                         <p class="text-color">The quality data, best network building uptime, fastest output</p>
-                        <a class="text_main_color" href="#">SERVICE DETAILS</a>
+                        <a class="text_main_color" href="./outlets/land/land.html">OUTLET DETAILS</a>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="services__card">
-                        <div class="sercices__icon"><img width="60"
-                                src="./content/assets/img/services-section/plane.webp" alt=""></div>
-                        <h3><a class="text_main_color" href="#">AIRWAYS <br> TRANSPORT</a></h3>
+                    <div class="outlets__card">
+                        <div class="outlets__icon"><img width="60" src="./content/assets/img/outlets-section/plane.webp"
+                                alt=""></div>
+                        <h3><a class="text_main_color text-uppercase" href="./outlets/air/air.html">Air<br>Outlets</a>
+                        </h3>
                         <p class="text-color">The quality data, best network building uptime, fastest output</p>
-                        <a class="text_main_color" href="#">SERVICE DETAILS</a>
+                        <a class="text_main_color" href="./outlets/air/air.html">OUTLET DETAILS</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 
     <!-- Start About Section  -->
     <section class="about-section py-5 m">
@@ -244,12 +272,12 @@
     <!-- Start principles Section  -->
     <section class="principles py-5 m">
         <div class="container">
-            <div class="row ">
+            <div class="row">
                 <div class="col-12 col-lg-6 px-5 mt-lg-0 mt-5">
                     <span class="text_red_color fw-bold">Our principles</span>
                     <h2 class="text_main_color mb-4">We work according to specific regulations and standards to
                         ensure that we provide the best service to our customers</h2>
-                    <ul>
+                    <ul class="number__list">
                         <li class="text-color mb-2 fs-5 fontf__oswald mb-4"><span>01</span> Integrity and transparency
                         </li>
                         <li class="text-color mb-2 fs-5 fontf__oswald mb-4"><span>02</span> credibility</li>
@@ -360,23 +388,37 @@
                     <div class="quote__content bg-white">
                         <span class="text_red_color fw-bold">CALL TO ACTION</span>
                         <h2 class="text_main_color mb-4">REQUEST A FREE QUOTE</h2>
-                        <form class="quote__form">
+                        <form class="public__form" id="checkout_form" method="POST" autocomplete="off"
+                            name="google-sheet">
                             <div class="row row-cols-1 row-cols-md-2">
                                 <div class="col">
                                     <div class="input-group mb-3">
-                                        <input type="text" class="form-control quote__form__input fontf__oswald fw-bold"
-                                            placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+                                        <input type="text"
+                                            class="form-control public__form__input fontf__oswald fw-bold"
+                                            placeholder="Name" aria-label="name" aria-describedby="basic-addon1"
+                                            required name="name">
                                         <span class="input-group-text" id="basic-addon1"><i
                                                 class="fa-solid fa-user"></i></span>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="input-group mb-3">
-                                        <input type="text" class="form-control quote__form__input fontf__oswald fw-bold"
-                                            placeholder="Subject" aria-label="Subject" aria-describedby="basic-addon1">
+                                        <input type="text"
+                                            class="form-control public__form__input fontf__oswald fw-bold"
+                                            placeholder="Subject" aria-label="subject" aria-describedby="basic-addon2"
+                                            required name="subject">
                                         <span class="input-group-text" id="basic-addon2"><i
                                                 class="fa-solid fa-i-cursor"></i></span>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-group mb-3">
+                                    <input type="email" class="form-control public__form__input fontf__oswald fw-bold"
+                                        placeholder="E-mail" aria-label="email" aria-describedby="basic-addon3" required
+                                        name="email">
+                                    <span class="input-group-text" id="basic-addon3"><i
+                                            class="fa-solid fa-envelope"></i></span>
                                 </div>
                             </div>
                             <div class="row">
@@ -384,8 +426,8 @@
                                     <div class="mb-3">
                                         <label for="exampleFormControlTextarea1"
                                             class="form-label fontf__oswald fw-bold">Message</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1"
-                                            rows="3"></textarea>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                            required name="message"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -430,7 +472,7 @@
     <!-- Start Footer -->
     <footer class="bg_main_color text-white pt-5">
         <div class="container">
-            <div class="row">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                 <div class="col">
                     <h2>Masarat Al Mina</h2>
                     <p class="text-color">for customs clearance to clear all outstanding customs matters flexibly and
@@ -483,6 +525,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./content/js/form.js"></script>
     <script src="./content/js/owl.carousel.-ltr.js"></script>
     <script src="./content/js/main.js"></script>
 </body>

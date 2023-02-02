@@ -1,7 +1,5 @@
 .hero {
   width: 100%;
-  margin-top: -10px;
-
   .item {
     height: 100vh;
     display: flex;
@@ -36,29 +34,26 @@
   }
 }
 
-.services-section {
+.outlets-section {
   max-height: fit-content;
   position: relative;
   background-color: white;
   margin-top: -7rem;
   z-index: 10;
   border-radius: 1px;
-  overflow: visible !important;
   border-bottom: 10px solid $red-color;
   padding: 0 3rem;
-  overflow: visible !important;
 
-  .services__card {
+  .outlets__card {
     display: flex;
     flex-direction: column;
     align-items: center;
     transition: all 0.6s ease-in-out;
-    overflow: visible !important;
 
     &:hover {
       transform: translateY(-90px);
       z-index: 100;
-      .sercices__icon {
+      .outlets__icon {
         border: 4px solid $red-color;
         background-color: white;
         margin-bottom: 1rem;
@@ -68,7 +63,7 @@
       }
     }
 
-    .sercices__icon {
+    .outlets__icon {
       width: 135px;
       height: 135px;
       border-radius: 50%;
@@ -137,16 +132,6 @@
 .principles {
   background-color: #f3f4f6;
   position: relative;
-  ul {
-    span {
-      width: 1.5rem;
-      height: 1.5rem;
-      padding: 0 0.5rem;
-      background-color: $red-color;
-      color: white;
-      clip-path: polygon(11% 0, 100% 0, 89% 100%, 0 100%);
-    }
-  }
   .principles__vid {
     display: flex;
     justify-content: center;
@@ -196,14 +181,13 @@
 .testimonials {
   background-image: url(../assets/img/testimonials/map-bg.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   .item {
     display: flex;
     flex: 1 0 auto;
     height: 100%;
     padding: 2rem 2.5rem;
     background: #fff6f6ac;
-    box-shadow: -18px -8px 10px -24px rgba(0, 0, 0, 0.6);
     clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%);
   }
   &__card {
@@ -226,28 +210,9 @@
   &__content {
     clip-path: polygon(7% 0, 100% 0, 93% 100%, 0 100%);
     padding: 5rem 5rem 0 5rem;
-    filter: drop-shadow(0px 30px 10px rgba(0, 0, 0, 0.06));
-  }
-  &__form {
-    input,
-    textarea {
-      box-shadow: none !important;
-      border-color: #dee2e6 !important;
-    }
-    &__form__input {
-      border-#{$e}: 0;
-    }
-    .input-group-text {
-      color: $main-color;
-      border: 0;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      #{$e}: 0;
-      background-color: transparent;
-    }
   }
 }
+
 @media screen and (max-width: 550px) {
   .quote {
     padding-top: 1rem;

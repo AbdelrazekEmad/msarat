@@ -1,0 +1,22 @@
+.public__form {
+  input,
+  textarea {
+    box-shadow: none !important;
+    border-color: #dee2e6 !important;
+  }
+  &__form__input {
+    border-#{$e}: 0;
+  }
+  .input-group-text {
+    color: $main-color;
+    border: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    #{$e}: 0;
+    background-color: transparent;
+  }
+  #basic-addon3 {
+    margin-#{$e}: 1rem;
+  }
+}

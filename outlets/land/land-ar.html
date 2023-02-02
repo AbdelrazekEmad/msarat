@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Msarat</title>
+    <!-- bootstrap CDN rtl v5.3  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-WJUUqfoMmnfkBLne5uxXj+na/c7sesSJ32gI7GfCk4zO4GthUKhSEGyvQ839BC51" crossorigin="anonymous">
+    <!-- font awesome CDN v6.2.1  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../content/css/main-rtl.css">
+
+</head>
+
+<body>
+
+    <!-- Start upperbar  -->
+    <section class="upperbar bg_main_color py-2 py-lg-0">
+        <div class="d-flex justify-content-between align-items-center flex-column flex-lg-row ">
+            <span class="upperbar__text fontf__oswald text-uppercase ms-2">نحن أكثر من مجرد وسيلة نقل<span
+                    class="text-white fw-bold"> استشارة
+                    مجانية </span></span>
+            <ul class="upperbar__icons m-0 p-0 pe-3 d-flex">
+                <li class="bg_red_color d-block p-2 text-white"><i class="fa-brands fa-facebook"></i></li>
+                <li class="bg_red_color d-block p-2 text-white"><i class="fa-brands fa-facebook"></i></li>
+                <li class="bg_red_color d-block p-2 text-white"><i class="fa-brands fa-facebook"></i></li>
+                <li class="bg_red_color d-block p-2 text-white"><i class="fa-brands fa-facebook"></i></li>
+                <li class="bg_red_color d-block p-2 text-white"><i class="fa-brands fa-facebook"></i></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Start header -->
+    <section class="px-2 py-4">
+        <div class="row">
+            <div class="col-4">
+                <a href="../../index-ar.html"><img width="250" src="../../content/assets/img/logo/logo-ar.webp"
+                        alt=""></a>
+            </div>
+            <div class="col-8 d-none d-lg-block">
+                <div class="d-flex column-gap-4">
+                    <div class="navbar__box">
+                        <i class="fa-solid fa-phone-volume fs-3 me-2 text-danger"></i>
+                        <div class="navbar__box__text text-color fontf__oswald fw-bolder">
+                            <p>تواصل معنا</p>
+                            <a class="fs-6" href="tel:+01022674132">01022674132</a>
+                        </div>
+                    </div>
+                    <div class="navbar__box">
+                        <i class="fa-solid fa-envelope-open-text fs-3 me-2 text-danger"></i>
+                        <div class="navbar__box__text text-color fontf__oswald fw-bolder">
+                            <p>الأيميل</p>
+                            <a class="fs-6" href="mailto:abdelrazekemad123@gmail.com">abdelrazekemad123@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="navbar__box">
+                        <i class="fa-solid fa-location-dot fs-3 me-2 text-danger"></i>
+                        <div class="navbar__box__text text-color fontf__oswald fw-bolder">
+                            <p>العنوان</p>
+                            <a href="#map">الرياض- حي الملز -الشارع :طريق صلاح الدين الايوبي</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-block d-lg-none">
+                <button class="hamburger">
+                    <div class="bar"></div>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Navs -->
+    <nav class="desktop-nav bg_red_color d-none d-lg-flex justify-content-between">
+        <ul class="navslist m-0 p-0">
+            <li><a class="text-white" href="../../index-ar.html">الصفحة الرئيسية</a></li>
+            <li><a class="text-white" href="./index.html">خدماتنا</a></li>
+            <li class="desktop__dropdown">
+                <a class="text-white">المنافذ</a>
+                <ul class="dropdown__content bg-white">
+                    <li><a href="../offshore/offshore-ar.html" class="text_main_color">منافذ بحرية</a></li>
+                    <li><a href="./land-ar.html" class="text_main_color">منافذ برية</a></li>
+                    <li><a href="../air/air-ar.html" class="text_main_color">منافذ جوية</a></li>
+                </ul>
+            </li>
+            <li><a class="text-white" href="../../about-us/about-ar.html">عن الشركة</a></li>
+            <li><a class="text-white" href="../../contact/contact-ar.html">تواصل معنا</a></li>
+            <li><a class="text-white" href="./land.html">English</a></li>
+        </ul>
+        <button class="fontf__oswald">طلب سعر </button>
+    </nav>
+
+    <div class="mobile-nav__overlay"></div>
+    <nav class="mobile-nav">
+        <span class="closing_btn"><i class="fa-solid fa-x text-white rounded-circle"></i></span>
+        <ul class="mobile-nav__list m-0 p-0 py-2">
+            <a href="../../index-ar.html">Home</a>
+            <a href="./index.html">خدماتنا</a>
+            <li class="mobile__dropdown fontf__oswald">
+                <div class="d-flex justify-content-between align-items-center">
+                    <span>المنافذ</span>
+                    <div class="plus__btn">
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <ul class="mobile__dropdown__content bg-white">
+                    <li><a class="text_main_color" href="../offshore/offshore-ar.html" class="text_main_color">منافذ
+                            بحرية</a>
+                    </li>
+                    <li><a class="text_main_color" href="./land-ar.html" class="text_main_color">منافذ
+                            برية</a>
+                    </li>
+                    <li><a class="text_main_color" href="../air/air-ar.html" class="text_main_color">منافذ
+                            جوية</a></li>
+                </ul>
+            </li>
+            <a href="../../about-us/about-ar.html">عن الشركة</a>
+            <a href="../..//contact/contact-ar.html">تواصل معنا</a>
+            <a href="./land.html">English</a>
+        </ul>
+        <div class="mobile-nav__info">
+            <span>
+                <i class="fa-solid fa-phone-volume fs-3 me-2 text-danger"></i>
+                <a href="tel:01022674132">01022674132</a>
+            </span>
+            <span>
+                <i class="fa-solid fa-envelope-open-text fs-3 me-2 text-danger"></i>
+                <a href="mailto:abdelrazekemad123@gmail.com">abdelrazekemad123@gmail.com</a>
+            </span>
+            <span>
+                <i class="fa-solid fa-location-dot fs-3 me-2 text-danger"></i>
+                <a href="#map">28st. Msadak</a>
+            </span>
+        </div>
+    </nav>
+
+    <!-- Start banar  -->
+    <section class="banar">
+        <img src="../../content/assets/img/banar/breadcrumb-bg.png" alt="">
+        <div class="banar__content">
+            <h1>المنافذ برية</h1>
+            <span class="fontf__oswald text-white"><a class="text-white" href="../../index.html">الصفحة الرئيسية >></a>
+                منافذ برية</span>
+        </div>
+    </section>
+
+    <!-- Start Offshore Outlet  -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 ">
+                <div class="col">
+                    <span class="text_red_color fw-bold">برية</span>
+                    <h6 class="text_main_color mb-4">نوفر خدماتنا لتشمل أكثر من منفذ بري في مختلف بقاع المملكة مثل:
+                    </h6>
+                    <ul class="number__list">
+                        <li class="text_main_color mb-2 fs-5 fontf__oswald mb-4"><span>01</span>جمرك سلوى</li>
+                        <li class="text_main_color mb-2 fs-5 fontf__oswald mb-4"><span>02</span>جمرك البطحاء</li>
+                        <li class="text_main_color mb-2 fs-5 fontf__oswald mb-4"><span>03</span>جمرك رأس الخير</li>
+                        <li class="text_main_color mb-2 fs-5 fontf__oswald mb-4"><span>04</span>جمرك الخفجي</li>
+                        <li class="text_main_color mb-2 fs-5 fontf__oswald mb-4"><span>05</span>جمرك الرقعي</li>
+                        <li class="text_main_color mb-2 fs-5 fontf__oswald mb-4"><span>06</span>جمرك الحديثة</li>
+                        <li class="text_main_color mb-2 fs-5 fontf__oswald mb-4"><span>07</span>جمرك حالة عمار</li>
+                        <li class="text_main_color mb-2 fs-5 fontf__oswald mb-4"><span>08</span>جمرك الدره</li>
+                        <li class="text_main_color mb-2 fs-5 fontf__oswald mb-4"><span>09</span>جمرك جسر الملك فهد</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <span class="text_red_color fw-bold">دعوة للعمل</span>
+                    <h2 class="text_main_color mb-4">طلب خدمة</h2>
+                    <form class="public__form" id="checkout_form" method="POST" autocomplete="off" name="google-sheet">
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control public__form__input fontf__oswald fw-bold"
+                                        placeholder="الأسم" aria-label="name" aria-describedby="basic-addon1" required
+                                        name="name">
+                                    <span class="input-group-text" id="basic-addon1"><i
+                                            class="fa-solid fa-user"></i></span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control public__form__input fontf__oswald fw-bold"
+                                        placeholder="الموضوع" aria-label="subject" aria-describedby="basic-addon2"
+                                        required name="subject">
+                                    <span class="input-group-text" id="basic-addon2"><i
+                                            class="fa-solid fa-i-cursor"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-group mb-3">
+                                <input type="email" class="form-control public__form__input fontf__oswald fw-bold"
+                                    placeholder="الايميل" aria-label="email" aria-describedby="basic-addon3" required
+                                    name="email">
+                                <span class="input-group-text" id="basic-addon3"><i
+                                        class="fa-solid fa-envelope"></i></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1"
+                                        class="form-label fontf__oswald fw-bold">الرسالة</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required
+                                        name="message"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit"
+                            class="main__btn fontf__oswald bg_red_color text-white mb-5">إرسال</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Footer -->
+    <footer class="bg_main_color text-white pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>مسارات الميناء</h2>
+                    <p class="text-color">للتخليص الجمركي لتخليص كافة الأمور المعلقة بالجمارك بمرونة وسهولة، مما يساعدك
+                        في توفير الوقت والجهد وكذلك الأموال
+                    </p>
+                </div>
+                <div class="col">
+                    <h2>روابط هامة:</h2>
+                    <ul>
+                        <li><a class="text-color" href="./index.html">الصفحة الرئيسية</a></li>
+                        <li><a class="text-color" href="./index.html">عن الشركة</a></li>
+                        <li><a class="text-color" href="./index.html">تواصل معنا</a></li>
+                        <li><a class="text-color" href="./index.html">خدماتنا</a></li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <h2>تواصل معنا الان:</h2>
+                    <ul>
+                        <li>رقم الجوال: <p class="text-color">0504333360</p>
+                        </li>
+                        <li>العنوان: <p class="text-color">مؤسسة مسارات الميناء للتخليص الجمركي- الرياض- حي الملز
+                                -الشارع :طريق صلاح الدين الايوبي</p>
+                        </li>
+                        <li>الايميل:
+                            <p class="text-color">abdelrazekemad123@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Start Copy Right  -->
+    <section class="bg_red_color text-white d-flex justify-content-center align-items-center py-3">
+        <span>&copy; You deserve the best from <a class="text_main_color" href="https://www.ocoda.com/"
+                target="_blank">Ocoda</a></span>
+    </section>
+    <!-- End Copy Right  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="../../content/js/form.js"></script>
+    <script src="../../content/js/main.js"></script>
+</body>
+
+</html>
