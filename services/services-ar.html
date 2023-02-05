@@ -252,6 +252,49 @@
         </div>
     </Section>
 
+    <section class="services__form py-5">
+        <div class="container">
+            <form class="public__form" id="checkout_form" method="POST" autocomplete="off" name="google-sheet">
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control public__form__input fontf__oswald fw-bold"
+                                placeholder="الأسم" aria-label="name" aria-describedby="basic-addon1" required
+                                name="name">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-user"></i></span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control public__form__input fontf__oswald fw-bold"
+                                placeholder="الموضوع" aria-label="subject" aria-describedby="basic-addon2" required
+                                name="subject">
+                            <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-i-cursor"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control public__form__input fontf__oswald fw-bold"
+                            placeholder="الايميل" aria-label="email" aria-describedby="basic-addon3" required
+                            name="email">
+                        <span class="input-group-text" id="basic-addon3"><i class="fa-solid fa-envelope"></i></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1"
+                                class="form-label fontf__oswald fw-bold">الرسالة</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required
+                                name="message"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="main__btn fontf__oswald bg_red_color text-white mb-5">إرسال</button>
+            </form>
+    </section>
+
     <!-- Start Footer -->
     <footer class="bg_main_color text-white pt-5">
         <div class="container">

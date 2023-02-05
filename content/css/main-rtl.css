@@ -758,4 +758,9 @@ a {
           clip-path: polygon(7% 0, 100% 0, 95% 100%, 0 100%);
 }
 
+.services__form {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#f7f7f7));
+  background-image: linear-gradient(180deg, #f7f7f7 0%, #f7f7f7 100%);
+}
+
 /*# sourceMappingURL=main-rtl.css.map */
