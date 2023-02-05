@@ -45,7 +45,7 @@
     clip-path: polygon(11% 0, 100% 0, 89% 100%, 0 100%);
     &::after,
     &::before {
-      display: non;
+      display: none;
     }
     a {
       color: $main-color;
